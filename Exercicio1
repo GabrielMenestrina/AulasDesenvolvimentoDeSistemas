@@ -1,0 +1,50 @@
+# 2
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+
+if n1 > n2:
+    print("O maior número é.", n1)
+elif n2 > n1:
+    print("O maior número é.", n2)
+else:
+    print("Os números são iguais.")
+
+# 3
+letra = input("Digite uma letra: ")
+
+if letra in 'a,e,i,o,u':
+    print("A letra digitada é uma vogal.")
+elif letra.isalpha():
+    print("A letra digitada é uma consoante.")
+else:
+    print("Isso não é uma letra válida.")
+
+# 4
+senha = input("Defina uma senha: ")
+confirmacao = input("Confirme a senha: ")
+
+if senha == confirmacao:
+    print("Acesso permitido.")
+else:
+    print("Senhas não coincidem.")
+
+# 5
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
+
+media = (nota1 + nota2 + nota3) / 3
+
+if media >= 7:
+    print("O aluno esta acima da média. O aluno está aprovado!")
+else:
+    print("o aluno esta abaixo da média. O aluno está reprovado!")
+
+# 6
+num1 = int(input("Digite o primeiro número inteiro: "))
+num2 = int(input("Digite o segundo número inteiro: "))
+num3 = int(input("Digite o terceiro número inteiro: "))
+
+numeros = [num1, num2, num3]
+
+print("Os números em ordem decrescente são:", numeros)
